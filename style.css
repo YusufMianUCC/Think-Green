@@ -1,0 +1,78 @@
+.carousel-item {
+    height: 100 vh;
+    min-height: 300 px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25 px;
+    font-family: Alegreya;
+}
+
+.carousel-caption p {
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.navbar-nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: merienda;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: merienda;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
